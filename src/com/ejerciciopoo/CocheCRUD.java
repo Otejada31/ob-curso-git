@@ -26,6 +26,7 @@ class CocheCRUDImpl implements CocheCRUD{
     }
 
     public static void main(String[] args) {
+        System.out.println("este es un mensaje nuevo");
         CocheCRUD cocheCRUD = new CocheCRUDImpl();
         cocheCRUD.save();
         cocheCRUD.delete();
